@@ -4,8 +4,8 @@
   keil5
 
 # 引脚说明
-四脚I2C OLED:
-  SCL -> B12	SDA -> B13
+四脚I2C OLED: /br
+  SCL -> B12	SDA -> B13 
 串口1：
   TX->A9    RX->A10
   波特率9600 			
