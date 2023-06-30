@@ -1,7 +1,9 @@
 # 主控：
   stm32f103c8t6
-# 软件：
-  keil5
+# 文件说明：
+   stm32端代码 -> stm32串口调试.zip \
+   k210端代码 -> k210.py \
+   openmv端代码 -> openmv.py\
 
 # 引脚说明
 四脚I2C OLED:  \
