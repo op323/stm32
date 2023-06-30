@@ -1,17 +1,31 @@
-# 主控：
-  stm32f103c8t6
 # 文件说明：
    stm32端代码 -> stm32串口调试.zip \
    k210端代码 -> k210.py \
-   openmv端代码 -> openmv.py\
+   openmv端代码 -> openmv.py
 
-# 引脚说明
+# stm32端
 四脚I2C OLED:  \
   SCL -> B12	SDA -> B13 \
 串口1： \
   TX->A9    RX->A10 \
-  波特率9600 			 
+  波特率9600 			 \
+功能： \
+  接收数据并显示在OLED上
 
+# openmv端
+串口3： \
+  TX-> P4    RX-> P5 \
+  波特率9600 			 \
+功能： \
+  交替发送a,b字符;
+
+# openmv端
+串口3： \
+  TX-> P4    RX-> P5 \
+  波特率9600 			 \
+功能： \
+  交替发送a,b字符;
+  
 # 适用场景：
     stm32与k210,openmv等通信
 
